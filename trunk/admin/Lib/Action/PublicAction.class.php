@@ -24,7 +24,7 @@ class PublicAction extends Action {
 		C('SHOW_RUN_TIME',false);			// 运行时间显示
 		C('SHOW_PAGE_TRACE',false);
 		$model	=	M("Group");
-		$list	=	$model->where('status=1')->getField('id,title');
+		$list	=	$model->where('status=1')->order("sort asc")->getField('id,title');
 		$this->assign('nodeGroupList',$list);
 		$this->display();
 	}
@@ -63,10 +63,14 @@ class PublicAction extends Action {
                 //缓存菜单访问
                 $_SESSION['menu'.$_SESSION[C('USER_AUTH_KEY')]]	=	$menu;
             }
-            if(!empty($_GET['tag'])){
-                $this->assign('menuTag',$_GET['tag']);
-            }
-			//dump($menu);
+			$_GET['tag']=empty($_GET['tag'])?1:$_GET['tag'];
+			
+		  if($_GET['tag'] > 1){	
+		  	$groups = M("group");
+				$_GET['title'] = $groups->getField('title', 'id='.$_GET['tag']);
+			}else $_GET['title'] = '后台首页';
+			
+			$this->assign('menuTag',$_GET['tag']);
             $this->assign('menu',$menu);
 		}
 		C('SHOW_RUN_TIME',false);			// 运行时间显示

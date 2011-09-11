@@ -165,6 +165,7 @@ class CommonAction extends Action {
 		}
 		//保存当前数据对象
 		$list=$model->add ();
+		logs($model->getLastsql());
 		if ($list!==false) { //保存成功
 			$this->assign ( 'jumpUrl', Cookie::get ( '_currentUrl_' ) );
 			$this->success ('新增成功!');
@@ -190,6 +191,9 @@ class CommonAction extends Action {
 		$this->assign ( 'vo', $vo );
 		$this->display ();
 	}
+	function detail() {
+		$this->edit();
+	}
 
 	function update() {
 		//B('FilterString');
@@ -200,6 +204,7 @@ class CommonAction extends Action {
 		}
 		// 更新数据
 		$list=$model->save ();
+		logs($model->getLastsql());
 		if (false !== $list) {
 			//成功提示
 			$this->assign ( 'jumpUrl', Cookie::get ( '_currentUrl_' ) );
