@@ -1,0 +1,231 @@
+activitys_id	activitys_name	activitys_effective_time	ascription_id	activitys_ascription_id	activitys_price	types_id	bd_id	activitys_key	activitys_description	activitys_content	activitys_images	activitys_status	activitys_sort	activitys_sort_users	activitys_recommended	users_id	activitys_addtime	activitys_edittime	activitys_announcement	activitys_qq	activitys_phone	activitys_tel	activitys_is_discounts	activitys_is_indemnitys	activitys_is_customers	activitys_remark1	activitys_remark2	activitys_remark3
+an_id	activitys_id	an_title	an_content	an_title_image	an_key	an_description	an_images	an_status	an_sort	an_sort_users	users_id	an_addtime	an_edittime	an_remark1	an_remark2	an_remark3
+au_id	activitys_id	au_quantity	users_id	au_contact	au_directions	au_addtime	au_no	au_remark1	au_remark2	au_remark3
+admins_id	users_id	roles_id	admins_status	admins_sort	admins_addtime	admins_remark1	admins_remark2	admins_remark3
+1	1	1	1	1				
+ads_id	ap_id	ads_name	ads_alt	ads_type	ads_links	ads_addtime	ads_starttime	ads_endtime	ads_username	ads_status	ads_views	ads_hits	ads_remark1	ads_remark2	ads_remark3
+ap_id	ap_name	ap_introduce	ap_price	ap_items	ap_width	ap_height	ap_option	ap_status	ap_remark1	ap_remark2	ap_remark3
+as_id	ads_id	as_addtime	users_id	as_ip	as_type	as_remark1	as_remark2	as_remark3
+annexs_id	annexs_name	annexs_path	annexs_size	annexs_remark1	annexs_remark2	annexs_remark3
+announcement_id	channels_id	announcement_title	announcement_content	announcement_images	announcement_key	announcement_description	announcement_url	announcement_status	announcement_sort	users_id	announcement_addtime	announcement_edittime	announcement_remark1	announcement_remark2	announcement_remark3
+answers_id	questionnaires_id	answers_type	specific_id	answers_answer	answers_addtime	users_id	answers_ip	answers_remark1	answers_remark2	answers_remark3
+1	1	1	1	1	2010-10-11 00:01:11	1	192.168.1.1			
+2	2	2	2	2	2010-10-11 00:01:12	1	192.168.1.2			
+3	3	3	3	3	2010-10-11 00:01:13	1	192.168.1.3			
+areas_id	areas_name	areas_description	areas_parentid	areas_all_parentid	areas_child	areas_all_children	areas_parentdir	areas_dir	areas_url	areas_image	areas_hits	areas_status	areas_sort	users_id	areas_addtime	areas_content	areas_remark1	areas_remark2	areas_remark3
+ask_id	types_id	ask_title	ask_content	ask_images	ask_integrals	users_id	ask_addtime	ask_edittime	ask_status	ask_ischeck	ask_anonymous	ask_remark1	ask_remark2	ask_remark3
+1	1	测试标题1	测试内容1	图片1	111	1	2010-10-11 22:12:11	2010-10-11 22:12:11	1	1	1			
+2	2	测试标题2	测试内容2	图片2	112	1	2010-10-11 22:12:12	2010-10-11 22:12:12	1	1	1			
+3	3	测试标题3	测试内容3	图片3	113	1	2010-10-11 22:12:13	2010-10-11 22:12:13	1	1	1			
+4	4	测试标题4	测试内容4	图片4	114	1	2010-10-11 22:12:14	2010-10-11 22:12:14	1	1	1			
+5	5	测试标题5	测试内容5	图片5	115	1	2010-10-11 22:12:15	2010-10-11 22:12:15	1	1	1			
+ap_id	ask_id	ap_content	ap_images	users_id	ap_ip	ap_addtime	ap_edittime	ap_status	ap_good	ap_remark1	ap_remark2	ap_remark3
+1	1	测试回复内容1	图片1	1	192.168.1.1	2010-10-11 22:20:21	2010-10-11 22:20:21	1	1			
+2	2	测试回复内容2	图片2	1	192.168.1.2	2010-10-11 22:20:22	2010-10-11 22:20:22	1	1			
+3	3	测试回复内容3	图片3	1	192.168.1.3	2010-10-11 22:20:23	2010-10-11 22:20:23	1	1			
+4	4	测试回复内容4	图片4	1	192.168.1.4	2010-10-11 22:20:24	2010-10-11 22:20:24	1	1			
+5	5	测试回复内容5	图片5	1	192.168.1.5	2010-10-11 22:20:25	2010-10-11 22:20:25	1	1			
+as_id	ask_id	as_hits	as_hits_day	as_hits_week	as_hits_month	as_hits_year	as_posts	as_posts_day	as_posts_week	as_posts_month	as_posts_year	as_remark1	as_remark2	as_remark3
+1	1	1	11	51	511	15111	1	11	51	551	15111			
+2	2	2	12	52	521	15112	2	12	52	552	15112			
+3	3	3	13	53	531	15113	3	13	53	553	15113			
+4	4	4	14	54	541	15114	4	14	54	554	15114			
+5	5	5	15	55	551	15115	5	15	55	555	15115			
+associations_id	associations_name	associations_key	associations_description	associations_url	associations_image_photo	associations_features	associations_announcement	associations_content	associations_images	associations_ads	bd_id	associations_addr	associations_map	associations_status	associations_sort	users_id	associations_recommended	associations_addtime	associations_cooperation	associations_remark1	associations_remark2	associations_remark3
+as_id	associations_id	as_name	as_value	as_status	as_sort	users_id	as_addtime	as_remark1	as_remark2	as_remark3
+au_id	associations_id	au_type	au_status	au_sort	users_id	au_addtime	au_remark1	au_remark2	au_remark3
+barters_id	barters_name	barters_effective_time	go_id	barters_get_goods	barters_no	gu_id	types_id	bd_id	barters_key	barters_description	barters_content	barters_imges	barters_status	barters_sort	barters_sort_users	barters_recommended	users_id	buys_addtime	buys_edittime	buys_announcement	buys_qq	buys_phone	buys_tel	buys_remark1	buys_remark2	buys_remark3
+bs_id	modules_id	specific_id	bs_hits	bs_hits_day	bs_hits_week	bs_hits_month	bs_hits_year	bs_hits_preday	bs_hits_preweek	bs_hits_premonth	bs_hits_ highestday	bs_posts	bs_posts_day	bs_posts_week	bs_posts_month	bs_posts_year	bs_posts_preday	bs_posts_preweek	bs_posts_premonth	bs_posts_ highestday	bs_replies	bs_replies_day	bs_replies_week	bs_replies_month	bs_replies_year	bs_replies_preday	bs_replies_preweek	bs_replies_premonth	bs_replies_ highestday	favorites	bs_remark1	bs_remark2	bs_remark3
+bd_id	areas_id	bd_name	bd_description	bd_parentid	bd_all_parentid	bd_child	bd_all_children	bd_parentdir	bd_dir	bd_url	bd_image	bd_hits	bd_status	bd_sort	users_id	bd_addtime	bd_addr	bd_content	bd_ishot	bd_remark1	bd_remark2	bd_remark3
+buys_id	buys_name	buys_effective_tim	go_id	buys_price	buys_no	gu_id	types_id	bd_id	buys_key	buys_description	buys_content	buys_images	buys_status	buys_sort	buys_sort_users	buys_recommended	users_id	buys_addtime	buys_edittime	buys_announcement	buys_qq	buys_phone	buys_tel	buys_remark1	buys_remark2	buys_remark3
+channels_id	channels_name	channels_path	channels_url	channels_description	channels_status	channels_sort	channels_remark1	channels_remark2	channels_remark3
+1	测试2	ci1/	ceshi1	<p>m1</p>	2	7			
+2	测试频道2	ceshi2/	ceshi2	miaoshu2	1	1			
+4	测试频道4	ceshi4/	ceshi4	miaoshu4	1	1			
+5	测试频道5	ceshi5/	ceshi5	miaoshu5	1	1			
+comments_id	modules_id	specific_id	comments_title	comments_content	comments_images	users_id	comments_ip	comments_addtime	comments_status	comments_sort	comments_remark1	comments_remark2	comments_remark3
+complaints_id	modules_id	specific_id	complaints_title	complaints_content	users_id	complaints_ip	complaints_addtime	complaints_status	complaints_sort	complaints_remark1	complaints_remark2	complaints_remark3
+credits_id	cis_id	it_id	credits_name	credits_min	credits_max	credits_status	credits_sort	credits_call	credits_remark1	credits_remark2	credits_remark3
+cis_id	it_id	cis_name	cis_image	cis_status	cis_sort	cis_remark1	cis_remark2	cis_remark3
+customers_id	modules_id	specific_id	customers_rule	customers_starttime	customers_endtime	users_id	customers_begin	customers_addtime	customers_remark1	customers_remark2	customers_remark3
+cu_id	customers_id	cu_quantity	users_id	cu_contact	cu_ directions	cu_addtime	cu_no	cu_no_time	cu_remark1	cu_remark2	cu_remark3
+dc_id	modules_id	specific_id	dc_type	users_id	dc_ip	dc_addtime	dc_status	dc_sort	dc_remark1	dc_remark2	dc_remark3
+discounts_id	modules_id	specific_id	ds_id_set	discounts_price	discounts_integral	discounts_starttime	discounts_endtime	discounts_description	discounts_directions	users_id	discounts_begin	discounts_addtime	discounts_remark1	discounts_remark2	discounts_remark3
+ds_id	ds_title	ds_status	ds_sort	users_id	ds_addtime	ds_remark1	ds_remark2	ds_remark3
+du_id	discounts_id	ds_id	users_id	du_no	du_addtime	du_remark1	du_remark2	du_remark3
+education_id	education_name	education_status	education_sort	users_id	education_addtime	education_remark1	education_remark2	education_remark3
+3	试试看吧	1	3	1	2010-10-11 13:09:00			
+4	看看效果hthhuj	2	9	1	2010-10-11 13:09:12			
+5	准备分页	1	2	1	2010-10-11 13:28:04			
+6	尝试分页	1	4	1	2010-10-11 13:28:16			
+7	常识非也	1	2	1	2010-10-11 13:28:27			
+8	hgfdhgfd	1	9	1	2010-10-11 14:54:51			
+favorites_id	modules_id	specific_id	specific_title	favorites_url	users_id	favorites_addtime	favorites_remark1	favorites_remark2	favorites_remark3
+forums_id	forums_name	forums_description	forums_parentid	forums_all_parentid	forums_child	forums_all_children	forums_parentdir	forums_dir	forums_url	forums_image	forums_items	forums_hits	forums_status	forums_sort	users_id	forums_addtime	forums_content	forums_remark1	forums_remark2	forums_remark3
+ascription_id	ascription_name	ascription_status	ascription_sort	users_id	ascription_addtime	ascription_remark1	ascription_remark2	ascription_remark3
+gb_id	gb_name	gb_status	gb_sort	users_id	gb_addtime	gb_remark1	gb_remark2	gb_remark3
+go_id	go_name	go_status	go_value	go_sort	users_id	go_addtime	go_remark1	go_remark2	go_remark3
+gs_id	modules_id	specific_id	shcools_id	gs_remark1	gs_remark2	gs_remark3
+gs_id	modules_id	specific_id	shcools_id	gs_remark1	gs_remark2	gs_remark3
+gu_id	gu_name	gu_status	gu_sort	users_id	gu_addtime	gu_remark1	gu_remark2	gu_remark3
+guestbooks_id	modules_id	specific_id	guestbooks_title	guestbooks_content	guestbooks_images	guestbooks_addtime	users_id	guestbooks_ip	guestbooks_status	guestbooks_sort	guestbooks_remark1	guestbooks_remark2	guestbooks_remark3
+gr_id	guestbooks_id	gr_content	gr_images	gr_addtime	users_id	gr_ip	gr_status	gr_sort	gr_remark1	gr_remark2	gr_remark3
+hits_id	modules_id	specific_id	users_id	hits_ip	hits_addtime	hits_remark1	hits_remark2	hits_remark3
+indemnitys_id	modules_id	specific_id	indemnitys_rule	indemnitys_starttime	indemnitys_endtime	users_id	indemnitys_begin	indemnitys_addtime	indemnitys_remark1	indemnitys_remark2	indemnitys_remark3
+integrals_id	it_id	integrals_name	integrals_much	integrals_status	integrals_sort	integrals_remark1	integrals_remark2	integrals_remark3
+it_id	it_name	it_status	it_sort	it_remark1	it_remark2	it_remark3
+jobs_id	jobs_name	jobs_effective_time	ascription_id	jobs_ascription_id	types_id	bd_id	jobs_key	jobs_description	jobs_content	jobs_images	jobs_status	jobs_sort	jobs_sort_users	jobs_recommended	users_id	jobs_addtime	jobs_edittime	jobs_announcement	jobs_qq	jobs_phone	jobs_tel	jobs_remark1	jobs_remark2	jobs_remark3
+keywords_id	modules_id	keywords_name	keywords_status	keywords_sort	keywords_ishot	keywords_remark1	keywords_remark2	keywords_remark3
+letters_id	letters_title	letters_content	letters_type	specific_id	letters_images	letters_status	users_id	letters_addtime	letters_remark1	letters_remark2	letters_remark3
+links_id	links_name	links_images	links_url	links_addtime	users_id	links_status	links_sort	links_remark1	links_remark2	links_remark3
+ml_id	ml_title	ml_from	ml_to	users_id	ml_addtime	ml_remark1	ml_remark2	ml_remark3
+1	测试日志	clh21@126.com	clh021@gmail.com	1	2010-10-11 00:57:24			
+ms_id	ms_name	ms_value	users_id	ms_addtime	ms_status	ms_sort	ms_remark1	ms_remark2	ms_remark3
+1	126.com	126.com	1	2010-10-10 17:02:47	1	1			
+2	163.com	163.com	1	2010-10-10 17:35:34	1	1			
+3	qq.com	qq.com	1	2010-10-10 17:35:52	1	1			
+4	sina.com	sina.com	1	2010-10-10 17:36:08	1	1			
+5	yeah.net	yeah.net	1	2010-10-10 17:36:24	1	1			
+6	sohu.com	sohu.com	1	2010-10-10 17:36:40	1	1			
+modules_id	modules_name	modules_path	modules_url	modules_description	modules_status	modules_sort	modules_remark1	modules_remark2	modules_remark3
+1	频道	channels			1	1			
+2	模块	modules			1	1			
+3	系统设置	systems			1	1			
+4	用户	users			1	1			
+5	用户详细	users_detailed			1	1			
+6	学历	education			1	1			
+7	密保问题	problem			1	1			
+8	用户类型	users_type			1	1			
+9	系统个人头像	person_image			1	1			
+10	角色	roles			1	1			
+11	管理员	admins			1	1			
+12	类别	types			1	1			
+13	商品单位	goods_unit			1	1			
+14	商品品牌	goods_brand			1	1			
+15	商品新旧	goods_old			1	1			
+16	商品活动归属	goods_ascription			1	1			
+17	商圈	business_district			1	1			
+18	学校	shcools			1	1			
+19	我要买	buys			1	1			
+20	内容所在学校	goods_shcools			1	1			
+21	我要卖	sales			1	1			
+22	以物易物	barters			1	1			
+23	打折信息	discounts			1	1			
+24	打折方式	discounts_style			1	1			
+25	打折参与	discounts_users			1	1			
+26	保赔	indemnitys			1	1			
+27	赔保	pays			1	1			
+28	团购	customers			1	1			
+29	团购参与	customers_users			1	1			
+30	活动	activitys			1	1			
+31	活动参与	activitys_users			1	1			
+32	地区	areas			1	1			
+33	店铺	shops			1	1			
+34	社团	associations			1	1			
+35	社团会员	associations_users			1	1			
+36	社团设置	associations_systems			1	1			
+37	兼职	pluralisms			1	1			
+38	求职	jobs			1	1			
+39	站内信	letters			1	1			
+40	邮件日志	mails_log			1	1			
+41	邮件服务器	mails_server			1	1			
+42	采风	activitys_news			1	1			
+43	推荐位	positions			1	1			
+44	推荐位详细	positions_detail			1	1			
+45	问题	ask			1	1			
+46	问题回复	ask_posts			1	1			
+47	问题在线统计	ask_statistics			1	1			
+48	回复在线统计	posts_statistics			1	1			
+49	问卷栏目	questionnaire_category			1	1			
+50	单选题	radios			1	1			
+51	多选题	multiple_choice			1	1			
+52	问答题	questions			1	1			
+53	问卷	questionnaires			1	1			
+54	回答	answers			1	1			
+55	留言	guestbooks			1	1			
+56	留言回复	guestbooks_replay			1	1			
+57	友情链接	links			1	1			
+58	广告位	ads_place			1	1			
+59	广告	ads			1	1			
+60	广告统计	ads_statistics			1	1			
+61	手机短信日志	tel_logs			1	1			
+62	关键字	keywords			1	1			
+63	顶踩	ding_cais			1	1			
+64	评论	comments			1	1			
+65	收藏	favorites			1	1			
+66	统计	statistics			1	1			
+67	点击率	hits			1	1			
+68	投票	votes			1	1			
+69	投诉	complaints			1	1			
+70	积分项目	integrals			1	1			
+71	信誉等级图标	credits_image			1	1			
+72	信誉等级	credits			1	1			
+73	积分分类	integrals_type			1	1			
+74	用户积分	users_integrals			1	1			
+75	公告	announcement			1	1			
+76	超市	supermarket			1	1			
+77	版块	forums			1	1			
+78	帖子	posts			1	1			
+79	回帖	replies			1	1			
+80	论坛统计	bbs_statistics			1	1			
+81	缓存	cache			1	1			
+mc_id	qc_id	mc_title	mc_a	mc_b	mc_c	mc_d	mc_e	mc_f	mc_status	mc_sort	mc_remark1	mc_remark2	mc_remark3
+1	1	多选问题1	的1	的2	的3	的4	的5	的6	1	1			
+2	2	多选问题2	是1	是2	是3	是4	是5	是6	1	2			
+3	3	多选问题3	啊1	啊2	啊3	啊4	啊5	啊6	1	3			
+pays_id	indemnitys_id	pays_receipt	pays_money	pays_contract_time	users_id	pays_addtime	pays_remark1	pays_remark2	pays_remark3
+pi_id	pi_name	pi_path	pi_status	pi_sort	pi_remark1	pi_remark2	pi_remark3
+pluralisms_id	pluralisms_name	pluralisms_effective_time	ascription_id	pluralisms_ascription_id	types_id	bd_id	pluralisms_key	pluralisms_description	pluralisms_content	pluralisms_images	pluralisms_status	pluralisms_sort	pluralisms_sort_users	pluralisms_recommended	users_id	pluralisms_addtime	pluralisms_edittime	pluralisms_announcement	pluralisms_qq	pluralisms_phone	pluralisms_tel	pluralisms_is_discounts	pluralisms_is_indemnitys	pluralisms_is_customers	pluralisms_remark1	pluralisms_remark2	pluralisms_remark3
+positions_id	positions_name	positions_status	positions_sort	positions_remark1	positions_remark2	positions_remark3
+pd_id	positions_id	modules_id	specific_id	positions_remark1	positions_remark2	positions_remark3
+posts_id	forums_id	posts_title	posts_content	posts_images	posts_expression	posts_attachment	posts_reply_num	posts_hit_num	posts_status	posts_sort	users_id	shcools_id	associations_id	posts_isimage	posts_isattachment	posts_isessence	posts_istop	posts_iscooperation	posts_ishot	posts_cooperation_pariod	posts_cooperation_date	posts_cooperation_content	posts_addtime	posts_edittime	posts_remark1	posts_remark2	posts_remark3
+ps_id	ask_id	ap_id	ps_hits	ps_hits_day	ps_hits_week	ps_hits_month	ps_hits_year	ps_votes	ps_votes_day	ps_votes_week	ps_votes_month	ps_votes_year	ps_remark1	ps_remark2	ps_remark3
+1	1	1	1	11	31	51	111	1111	11	31	51	111			
+2	2	2	2	12	32	52	112	1112	12	32	52	112			
+3	3	3	3	13	33	53	113	1113	13	33	53	113			
+problem_id	problem_name	problem_status	problem_sort	users_id	problem_addtime	problem_remark1	problem_remark2	problem_remark3
+problems_id	problems_name	problems_status	problems_sort	users_id	problems_addtime	problems_remark1	problems_remark2	problems_remark3
+1	sh	1	8	1	2010-10-11 12:32:31			
+qc_id	qc_father	qc_name	qc_status	qc_sort	qc_remark1	qc_remark2	qc_remark3
+1	1	1	1	1			
+2	2	2	2	2			
+3	3	3	3	3			
+questionnaires_id	qc_id	questionnaires_name	radios_id_set	mc_id_set	qc_id_set	questionnaires_status	questionnaires_sort	questionnaires_anonymous	questionnaires_starttime	questionnaires_endtime	questionnaires_addtime	users_id	questionnaires_remark1	questionnaires_remark2	questionnaires_remark3
+1	1	问卷1	1,2,3,	1,2,3,	1,2,3,	1	1	1	2010-10-11 23:58:11	2010-10-12 23:58:11	2010-10-11 23:58:11	1			
+2	2	问卷2	1,2,3,	1,2,3,	1,2,3,	1	2	1	2010-10-11 23:58:12	2010-10-12 23:58:12	2010-10-11 23:58:12	1			
+3	3	问卷3	1,2,3,	1,2,3,	1,2,3,	1	3	1	2010-10-11 23:58:13	2010-10-12 23:58:13	2010-10-11 23:58:13	1			
+questions_id	qc_id	questions_title	users_id	questions_addtime	questions_status	questions_sort	questions_remark1	questions_remark2	questions_remark3
+1	1	问答1	0		1	1			
+2	2	问答2	0		1	2			
+3	3	问答3	0		1	3			
+radios_id	qc_id	radios_title	radios_a	radios_b	radios_c	radios_d	radios_e	radios_f	radios_status	radios_sort	radios_remark1	radios_remark2	radios_remark3
+1	1	单选题1号问题	的1	的2	的3	的4	的5	的6	1	1			
+2	2	单选题2号问题	是1	是2	是3	是4	是5	是6	1	2			
+3	3	单选题3号问题	啊1	啊2	啊3	啊4	啊5	啊6	1	3			
+replies_id	posts_id	replies_content	replies_images	replies_expression	replies_attachment	replies_status	replies_sort	users_id	replies_addtime	replies_edittime	replies_remark1	replies_remark2	replies_remark3
+roles_id	modules_id_set	roles_status	roles_sort	roles_name	roles_remark1	roles_remark2	roles_remark3
+1	1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,	1	1	超级管理员			
+sales_id	sales_name	sales_effective_time	ascription_id	sales_ascription_id	go_id	gb_id	sales_price	sales_no	gu_id	types_id	bd_id	sales_key	sales_description	sales_content	sales_images	sales_status	sales_sort	sales_sort_users	sales_recommended	users_id	sales_addtime	sales_edittime	sales_announcement	sales_qq	sales_phone	sales_tel	sales_is_discounts	sales_is_indemnitys	sales_is_customers	sales_remark1	sales_remark2	sales_remark3
+shcools_id	shcools_name	shcools_description	shcools_parentid	shcools_all_parentid	shcools_child	shcools_all_children	shcools_parentdir	shcools_dir	shcools_url	schools_images	shcools_hits	shcools_status	shcools_sort	users_id	shcools_addtime	shcools_content	shcools_remark1	shcools_remark2	shcools_remark3
+shops_id	shops_name	shops_key	shops_description	shops_url	shops_image_photo	shops_features	shops_announcement	shops_content	shops_images	shops_ads	bd_id	shops_addr	shops_map	shops_status	shops_sort	users_id	shops_addtime	shops_cooperation	shops_remark1	shops_remark2	shops_remark3
+statistics_id	modules_id	specific_id	statistics_hits	statistics_hits_day	statistics_hits_week	statistics_hits_month	statistics_hits_year	statistics_votes	statistics_votes_day	statistics_votes_week	statistics_votes_month	statistics_votes_year	comments	comments_checked	complaints	complaints_checked	favorites	statistics_remark1	statistics_remark2	statistics_remark3
+supermarket_id	supermarket_name	supermarket_content	supermarket_image	supermarket_images	supermarket_key	supermarket_description	supermarket_url	supermarket_status	supermarket_sort	users_id	supermarket_addtime	supermarket_edittime	supermarket_remark1	supermarket_remark2	supermarket_remark3
+systems_id	systems_name	systems_value	systems_type	systems_status	systems_sort	systems_remark1	systems_remark2	systems_remark3
+1	d	测试值1	1	1	1			
+2	测试名称2	测ds	99	2	3			
+3	测试名称3	测试值3	3	1	1			
+4	测试名称4	测试值4	4	1	1			
+5	测试名称5	测试值5	5	1	1			
+6	测试名称6	测试值6	6	1	1			
+7	测试名称7	测试值7	7	1	1			
+11	hgffff	hgjh	46	2	3			
+12	范德萨	范德萨	233	1	3			
+tl_id	tl_from	tl_to	tl_addtime	users_id	tl_remark1	tl_remark2	tl_remark3
+types_id	types_types	types_name	types_description	types_parentid	types_all_parentid	types_child	types_all_children	types_parentdir	types_dir	types_url	types_image	types_items	types_hits	types_status	types_sort	users_id	types_addtime	types_content	types_remark1	types_remark2	types_remark3
+users_id	users_account	users_pw	users_remark1	users_remark2	users_remark3
+1	sxt	202cb962ac59075b964b07152d234b70			
+3	123	202cb962ac59075b964b07152d234b70			
+ud_id	users_id	ud_name	problems_id	ud_answer	ud_email	ud_birthday	ud_qq	ud_msn	ud_wangwang	ud_image	ud_nick	ud_sex	ud_signature	education_id	ud_phone	ud_tel	ud_homepage	ud_addr	ud_introduction	ud_status_set	ud_sort	ud_addtime	ud_grade	ud_integral	areas_id	ut_id	ud_friends	ud_remark1	ud_remark2	ud_remark3
+ui_id	users_id	it_id	ui_premonth	ui_month	ui_preweek	ui_week	ui_total	ui_sort	ui_remark1	ui_remark2	ui_remark3
+ut_id	ut_name	ut_status	ut_sort	ut_remark1	ut_remark2	ut_remark3
+votes_id	modules_id	specific_id	users_id	votes_ip	votes_addtime	votes_remark1	votes_remark2	votes_remark3

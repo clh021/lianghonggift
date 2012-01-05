@@ -1,0 +1,12 @@
+PHP函数
+
+stripslashes		common.php
+extract			common.php
+
+
+cache.php
+其中读写缓存操作中，某些参数为空时执行的是什么操作，那些参数还可做什么用
+
+orcal数据库的相关服务全部手动后，要连接orcal数据库，要启动哪几个服务，还是都要启动
+
+

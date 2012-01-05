@@ -1,0 +1,50 @@
+@charset "utf-8";
+* {
+	font: 12px "宋体";
+	margin: 0px;
+	padding: 0px;
+	border-width: 0px;
+}
+#top {
+	height: 77px;
+	width: 1000px;
+	background: url(../images/theme_bg.gif);
+	margin: 0px auto;
+}
+#top #theme {
+	background: url(../images/theme_center.gif) no-repeat;
+	margin: 0px auto;
+	height: 77px;
+	width: 781px;
+}
+#serch {
+	background: url(../images/serch_bg.gif) repeat-x;
+	height: 27px;
+	width: 1000px;
+	margin: 0px auto;
+	text-align: right;
+	padding-top: 5px;
+}
+#serch #serchinput {
+	background: url(../images/serchtxt_bg.gif) no-repeat;
+	height: 20px;
+	width: 162px;
+}
+#serch #serchbtn {
+	background: url(../images/serchbtn.gif) no-repeat center center;
+	height: 20px;
+	width: 20px;
+}
+#bigbody {
+	margin: 0px auto;
+	width: 1000px;
+}
+#bigbody #menu {
+	float: left;
+	height: 223px;
+	width: 23px;
+}
+#bigbody #ss {
+	height: 444px;
+	width: 20px;
+}

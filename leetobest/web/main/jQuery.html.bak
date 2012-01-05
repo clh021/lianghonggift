@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<TITLE>jQuery与Ajax的应用</TITLE>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<META NAME="Generator" CONTENT="EditPlus">
+<META NAME="Author" CONTENT="">
+<META NAME="Keywords" CONTENT="">
+<META NAME="Description" CONTENT="">
+</HEAD>
+<script src="../../js/jquery.min.js" type="text/javascript" language="JavaScript"></script>
+<script type="text/javascript" type="JavaScript">
+<!--
+   /*
+   * 通过get方法提交到后台
+   */
+   /*$().ready(function(){
+      $("#send").click(function(){
+	     //普通的向后台传数据
+	     /*$.get("jQuery.php",{username:$("#username").val(),content:$("#content").val()},function(data,textStatus){
+		      $("#resText").html(data);
+		   }
+		 );*/
+
+		 //通过表单序列化来向后台传数据
+		 /*$.get("jQuery.php",$("#form1").serialize(),function(data,textStatus){
+		      $("#resText").html(data);
+		   }
+		 );*/
+	  //});
+   //})
+   
+   /*
+   * 通过post方法提交到后台,并且采用表单
+   */
+   $(function(){
+      $("#send").click(function(){
+	     //普通的向后台传数据
+	     $.post("jQuery.php",{username:$("#username").val(),content:$("#content").val()},function(data,textStatus){
+		     $("#resText").html(data);
+		 });
+
+	     //通过表单序列化来向后台传数据
+	     /*$.post("jQuery.php",$("#form1").serialize(),function(data,textStatus){
+		     $("#resText").html(data);
+		 });*/
+	  });
+   })
+//-->
+</script>
+<BODY>
+<form id="form1" name="form1" action="">
+<p>评论：</p>
+<p>姓名：<input id="username" name="username" type="text"/></p>
+<p>内容：<textarea id="content" name="content"></textarea></p>
+<p><input id="send" name="send" type="button" value="Ajax获取"/></p>
+</form>
+<div class="comment">已有评论：</div>
+<div id="resText"></div>
+</BODY>
+</HTML>

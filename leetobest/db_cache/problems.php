@@ -1,0 +1,88 @@
+<?php
+return array (
+  0 => 
+  array (
+    'problems_id' => '1',
+    'problems_name' => '我母亲的姓名是什么？',
+    'problems_status' => '1',
+    'problems_sort' => '0',
+    'problems_addusersid' => '0',
+    'problems_addtime' => '',
+    'problems_editusersid' => '0',
+    'problems_edittime' => '',
+    'problems_remark1' => NULL,
+    'problems_remark2' => NULL,
+    'problems_remark3' => NULL,
+  ),
+  1 => 
+  array (
+    'problems_id' => '2',
+    'problems_name' => '我的出生地是哪里？',
+    'problems_status' => '1',
+    'problems_sort' => '0',
+    'problems_addusersid' => '0',
+    'problems_addtime' => '',
+    'problems_editusersid' => '0',
+    'problems_edittime' => '',
+    'problems_remark1' => NULL,
+    'problems_remark2' => NULL,
+    'problems_remark3' => NULL,
+  ),
+  2 => 
+  array (
+    'problems_id' => '3',
+    'problems_name' => '我的工号是什么？',
+    'problems_status' => '1',
+    'problems_sort' => '0',
+    'problems_addusersid' => '0',
+    'problems_addtime' => '',
+    'problems_editusersid' => '0',
+    'problems_edittime' => '',
+    'problems_remark1' => NULL,
+    'problems_remark2' => NULL,
+    'problems_remark3' => NULL,
+  ),
+  3 => 
+  array (
+    'problems_id' => '4',
+    'problems_name' => '我父亲的职业是什么？',
+    'problems_status' => '1',
+    'problems_sort' => '0',
+    'problems_addusersid' => '0',
+    'problems_addtime' => '',
+    'problems_editusersid' => '0',
+    'problems_edittime' => '',
+    'problems_remark1' => NULL,
+    'problems_remark2' => NULL,
+    'problems_remark3' => NULL,
+  ),
+  4 => 
+  array (
+    'problems_id' => '5',
+    'problems_name' => '我最喜欢哪一个明星？',
+    'problems_status' => '2',
+    'problems_sort' => '0',
+    'problems_addusersid' => '0',
+    'problems_addtime' => '',
+    'problems_editusersid' => '0',
+    'problems_edittime' => '',
+    'problems_remark1' => NULL,
+    'problems_remark2' => NULL,
+    'problems_remark3' => NULL,
+  ),
+  5 => 
+  array (
+    'problems_id' => '6',
+    'problems_name' => '我最喜欢什么宠物？',
+    'problems_status' => '1',
+    'problems_sort' => '0',
+    'problems_addusersid' => '0',
+    'problems_addtime' => '',
+    'problems_editusersid' => '0',
+    'problems_edittime' => '',
+    'problems_remark1' => NULL,
+    'problems_remark2' => NULL,
+    'problems_remark3' => NULL,
+  ),
+);
+?>

@@ -1,0 +1,46 @@
+<?php
+	function setall(){
+		$a='a';
+        $b='b';
+        $c='c';
+        $d='d';
+        $e='e';
+    }
+    function unsetall(){
+		unset $a;
+        unset $b;
+        if(isset($c)){
+			unset $c;
+        }
+        global $d;
+        unset $d;
+        global $e;
+        if(isset($e)){
+			unset $e;
+        }
+        global $f;
+        unset $f;
+        global $g;
+        if(isset($g)){
+			unset $g;
+        }
+    }
+    $f='f';
+    $g='g';
+    echo $a.'1<br />';
+    echo $b.'2<br />';
+    echo $c.'3<br />';
+    echo $d.'4<br />';
+    echo $e.'5<br />';
+    echo $f.'6<br />';
+    echo $g.'7<br />';
+	setall();
+    unsetall();
+    echo $a.'1<br />';
+    echo $b.'2<br />';
+    echo $c.'3<br />';
+    echo $d.'4<br />';
+    echo $e.'5<br />';
+    echo $f.'6<br />';
+    echo $g.'7<br />';
+?>

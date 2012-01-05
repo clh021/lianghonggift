@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE> New Document </TITLE>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<META NAME="Generator" CONTENT="EditPlus">
+<META NAME="Author" CONTENT="">
+<META NAME="Keywords" CONTENT="">
+<META NAME="Description" CONTENT="">
+</HEAD>
+<script src="../js/jquery.min.js" type="text/javascript" language="JavaScript"></script>
+<script language="JavaScript" type="text/javascript">
+
+<!--
+    $(document).ready(function(){
+	   var num=load();
+	   
+		$("#chknm").val(num);
+		alert($("#chknm").val());
+
+        $.post("valcode.php",{"num":num},function(data,textStatus){
+		   $("#chkid").removeAttr("src");
+		   $("#chkid").attr("src",data);
+		});        
+	});
+    $(document).ready(function(){
+		 $("#changea").click(function(){
+				var num=load();
+		   
+				$("#chknm").val(num);
+				alert($("#chknm").val());
+
+				$.post("valcode.php",{"num":num},function(data,textStatus){
+				   $("#chkid").removeAttr("src");
+				   $("#chkid").attr("src",data);
+				}); 
+		   } );
+	});
+
+    function load(){
+	   var num='';
+	   for(i=0;i<4;i++){
+			var tmp =  Math.ceil((Math.random() * 15));
+			if(tmp > 9){
+				switch(tmp){
+					case(10):
+						num += 'a';
+						break;
+					case(11):
+						num += 'b';
+						break;
+					case(12):
+						num += 'c';
+						break;
+					case(13):
+						num += 'd';
+						break;
+					case(14):
+						num += 'e';
+						break;
+					case(15):
+						num += 'f';
+						break;
+				}
+			}else{
+				num += tmp;
+			}
+		}
+		return num;
+	}
+//-->
+</script>
+<BODY>
+<input id="chknm" name="chknm" type="hidden" value=""  />
+<img id='chkid' src=""/><a id="changea">看不清</a>
+</BODY>
+</HTML>
