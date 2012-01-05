@@ -1,0 +1,57 @@
+周末任务：【校园专区模块】
+颜梅	首页	词条列表页	词条详细页	词条增加修改
+金桥	话题列表页	话题详细页	话题增修页
+付帅	排行列表页	排行增修页
+程子寒	活动列表页	活动详细页	活动增修页
+翟敏亮	校园列表页
+陈良红	搜好首页	拼完个人中心10个静态页面
+
+备注：校园专区
+测试数据自己想办法插入，自己在自己电脑做好，周一合并在一起看效果。
+
+模块安排：
+模块名		负责人		编写位置		静态页面位置	注释
+个人中心	金桥		sougood/grzx/		back/grzx/	包含有活动话题
+企业站		孙兵杰		sougood/qyweb/		back/qyzy/	
+企业站管理	付帅		sougood/qygl/		back/qygl/
+校园专区	陈良红		sougood/school/		back/xyzq/	包含有活动话题
+排行词条	颜梅		sougood/seniority/	back/
+话题		王强成		sougood/talk/		back/
+活动		徐大鹏		sougood/activitys/	back/
+礼物		徐大鹏		sougood/gift/		back/
+商城		徐大鹏		sougood/【待定】	back/【待定】
+爱问		程子寒		sougood/ask/		back/
+新手帮助	翟敏亮		sougood/anouncement/	back/
+公告		翟敏亮		sougood/anouncement/	back/
+首页		陈良红		sougood/index.php	back/index.html	最迟周一做好
+
+遇到问题		联系人
+页面欠缺		付帅，陈良红
+JS问题			陈良红，刘老师
+PHP问题			颜梅，陈良红，刘老师
+LOGO和礼物图标		郭周强
+礼物，商城静态页面	李恒
+拼静态页面		程子寒，刘鲲，陈良红
+静态页面浏览器兼容	程子寒，陈良红
+
+当遇到问题时不必马上去问，将所有的问题积累写在一个记事本中，等问题联系人有空的时候提出，或者放学前一节课，或者开会总结的时候提出来，可提高效率。
+
+前台页面要求：
+1、保证页面正常显示
+2、各种浏览器都能正常显示
+3、编码是UTF-8
+4、所有页面包含有	以下代码【供搜索引擎搜索的，数据库有此字段】
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+5、修改标签，尽量多使用title,h1,h2,h3,strong等【为了搜索优化】
+6、尽量让所有导航和标题都是代码可见文本（代码中可看到导航的文字）【为了搜索优化】
+7、所有显示的文字信息尽可能的精炼【为了搜索优化】
+8、转移所有内嵌的css代码和js代码，使用加载的css文件和js文件【为了搜索优化】
+
+后台为了搜索引擎优化要做的一点是：（今天不花时间）
+使	www.sougood.net?id=1的url
+变成	www.sougood.ner/id/1/
+或者	www.sougood.ner/1/id/
+或者	www.sougood.ner/id_1/
+或者能想的出来的其他形式，前提是看起来是目录形式的静态URL地址
+而不是有明显的参数传递

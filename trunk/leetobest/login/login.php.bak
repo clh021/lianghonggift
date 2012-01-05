@@ -1,0 +1,83 @@
+<?php
+    session_start();
+	include('../include/config.php');
+	/*
+    * 清除绑定在session的变量
+    */
+    if(!empty($_SESSION['modules_id_set'])){
+	   unset($_SESSION['modules_id_set']);
+    }
+    if(!empty($_SESSION['roles_name'])){
+	   unset($_SESSION['roles_name']);
+    }
+    if(!empty($_SESSION['users_account'])){
+	   unset($_SESSION['users_account']);
+    }
+    if(!empty($_SESSION['modules_name_id'])){
+	   unset($_SESSION['modules_name_id']);
+    }
+	session_destroy();
+?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>趁霓虹灯未亮 后台用户登录</TITLE>
+<LINK href="images/user_login.css" type=text/css rel=stylesheet>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<META content="MSHTML 6.00.6000.16674" name=GENERATOR>
+
+<script type="text/javascript" language="JavaScript">
+  <!--
+     function denglu(){
+        var users_account=document.getElementById("users_account").value;
+        if(users_account.length<=0){
+        	alert("帐号不能为空!");
+        	return false;
+        }
+        var pw=document.getElementById("users_password").value;
+        if(pw.length<=0){
+        	alert("密码不能为空!");
+        	return false;
+        }
+   }
+  //-->
+</script>
+
+</HEAD>
+<BODY id=userlogin_body>
+<DIV></DIV>
+<form id="form1" name="form1" action="<?php echo URL_PATH; ?>control/leeadmins.php?method=login" method="post" onSubmit="return denglu();">
+<DIV id=user_login>
+<DL>
+  <DD id=user_top>
+  <UL>
+    <LI class=user_top_l></LI>
+    <LI class=user_top_c></LI>
+    <LI class=user_top_r></LI></UL>
+  <DD id=user_main>
+  <UL>
+    <LI class=user_main_l></LI>
+    <LI class=user_main_c>
+    <DIV class=user_main_box>
+    <UL>
+      <LI class=user_main_text>账&nbsp;&nbsp;&nbsp;&nbsp;号： </LI>
+      <LI class=user_main_input><INPUT class=TxtUserNameCssClass id="users_account" 
+      maxLength=20 name="users_account"> </LI></UL>
+    <UL>
+      <LI class=user_main_text>密&nbsp;&nbsp;&nbsp;&nbsp;码： </LI>
+      <LI class=user_main_input><INPUT class=TxtPasswordCssClass id="users_password" 
+      type=password name="users_password"> </LI></UL>
+    </DIV></LI>
+    <LI class=user_main_r><INPUT class=IbtnEnterCssClass id=IbtnEnter style="BORDER: 0px;background-image:url(images/user_botton.gif);cursor:pointer;"  value="" type="submit"  name=IbtnEnter> </LI></UL>
+  <DD id=user_bottom>
+  <UL>
+    <LI class=user_bottom_l></LI>
+    <LI class=user_bottom_c><center style="MARGIN-TOP: 20px">版权所有：趁霓虹灯未亮</center></LI>
+    <LI class=user_bottom_r></LI></UL></DD></DL></DIV></form>
+<SPAN id=ValrUserName 
+style="DISPLAY: none; COLOR: red"></SPAN><SPAN id=ValrPassword 
+style="DISPLAY: none; COLOR: red"></SPAN><SPAN id=ValrValidateCode 
+style="DISPLAY: none; COLOR: red"></SPAN>
+<DIV id=ValidationSummary1 style="DISPLAY: none; COLOR: red"></DIV>
+
+<DIV></DIV>
+
+</FORM></BODY></HTML>

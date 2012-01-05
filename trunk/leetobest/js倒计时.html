@@ -1,0 +1,69 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE> js倒计时 </TITLE>
+<META NAME="Generator" CONTENT="EditPlus">
+<META NAME="Author" CONTENT="">
+<META NAME="Keywords" CONTENT="">
+<META NAME="Description" CONTENT="">
+</HEAD>
+ <script type="text/javascript" language="JavaScript">
+ <!--
+     var target=[];//开始时间
+	 var target1=[];//结束时间
+     var time_id=[];//html标记
+     function dt(){
+	    for(i=0;i<target.length;i++){
+		    if(target[i]>=target1[i]){
+			   alert('到期');
+			   document.getElementById(time_id[i]).innerHTML="<font color=red>到期</font>"; 
+			}else{
+			   target[i]=target[i]+1000;
+			   if(target[i]>=target1[i]){
+			      document.getElementById(time_id[i]).innerHTML="<font color=red>到期</font>";
+			   }else{
+			      var timeold=target1[i]-target[i];
+				  var sectimeold=timeold/1000; 
+				  secondsold=Math.floor(sectimeold);
+				  var msPerDay=24*60*60*1000; 
+				  var e_daysold=timeold/msPerDay; 
+				  var daysold=Math.floor(e_daysold); 
+				  var e_hrsold=(e_daysold-daysold)*24; 
+				  var hrsold=Math.floor(e_hrsold); 
+				  var e_minsold=(e_hrsold-hrsold)*60; 
+				  var minsold=Math.floor((e_hrsold-hrsold)*60); 
+				  var seconds=Math.floor((e_minsold-minsold)*60);
+				  if (daysold<3){ 
+						document.getElementById(time_id[i]).innerHTML="<font color=red>"+daysold+"天"+hrsold+"小时"+minsold+"分"+seconds+"秒</font>"; 
+				  }else{ 
+						document.getElementById(time_id[i]).innerHTML=daysold+"天"+hrsold+"小时"+minsold+"分"+seconds+"秒"; 
+				  }
+			   }
+			}
+		}
+	    setTimeout(dt, 1000); 
+	 }
+	 setTimeout(dt,100);
+ //-->
+ </script>
+<BODY>
+<ul>
+   <div id="li_1" name="li_1"></div>
+   <script>
+      <!--
+	      target[target.length]=new Date(2010,0,18,22,08,00).getTime();//js月份是0-11，当大于零时就
+          target1[target1.length]=new Date(2010,0,18,22,25,00).getTime();
+          time_id[time_id.length]="li_1";
+	  //-->
+   </script>
+   <li id="li_2" name="li_2"></li>
+   <script>
+      <!--
+	      target[target.length]=new Date(2010,7,18,22,25,56).getTime();
+          target1[target1.length]=new Date(2010,7,18,22,26,3).getTime();
+		  time_id[time_id.length]="li_2";
+	  //-->
+   </script>
+</ul>
+</BODY>
+</HTML>
